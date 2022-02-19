@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINN</title>
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/png">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Roboto+Mono:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="menu">
+                <ul>
+                    <li class="option">SHOP</li>
+                    <li class="option">STYLE QUIZ</li>
+                    <li class="option">ABOUT US</li>
+                    <li class="option">STORIES</li>
+                </ul>
+            </nav>
+            <div class="logo">
+                <svg width="90" height="26" viewBox="0 0 90 26" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M0 0H90V26H0V0Z" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_1_31"
+                                transform="translate(0 -0.0027933) scale(0.00558659 0.0193382)" />
+                        </pattern>
+                        <image id="image0_1_31" width="179" height="52"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <div>
+                <h4>ALL COLLECTIONS</h4>
+                <p>Elevate Your Everyday</p>
+            </div>
+        </div>
+        <br>
+        <div class="mission">
+            <p>
+                If your happy place is at the dinner table, we totally get that. That’s why we created products to help
+                you find slow moments in a fast world.
+            </p>
+            <ul class="choose">
+                <li class="shop">Shop all&rarr;</li>
+                <li class="shop">Read stories&rarr;</li>
+            </ul>
+        </div>
+        <div class="maple">
+            <h4>Maple Board Collection</h4>
+            <div class="boards">
+                <img src="assets/images/short_board.png" alt="Maple board 1">
+                <img src="assets/images/long_board.png" alt="Maple board 2">
+                <img src="assets/images/wide_board.png" alt="Maple board 3">
+            </div>
+            <div>
+                <ul>
+                    <li class="shop">Maple Board - Short</li>
+                    <li class="shop">Maple Board - Long</li>
+                    <li class="shop">Maple Board - Wide</li>
+                </ul>
+            </div>
+        </div>
+        <div class="general">
+            <div>
+                <h4>THE ESSENTIALS</h4>
+                <p> We believe minimalism means more. More space, more time, more meaningful moments.</p>
+            </div>
+        </div>
+        <div>
+            <article class="one">
+                <img src="assets/images/kitchen_shelves.png" alt="shelves with plates">
+                <div>
+                    <h3>Our Design Story</h3>
+                    <hr>
+                    <p>We believe in thoughtful, intentional living. So we promise not to clutter your cabinets with
+                        one-off
+                        pieces you’ll rarely use. Our collection only includes items you’ll reach for every day. Because
+                        mindful living should be simple, not stressful.</p>
+                </div>
+            </article>
+        </div>
+        <br>
+        <div>
+            <article class="two">
+                <div>
+                    <h3>Your Table Your Time</h3>
+                    <hr>
+                    <p>Our modern lives keep us in constant motion. But what keeps us moving isn’t always what moves us.
+                        Our
+                        time at the table is our pause button. Meals can become moments and moments can become memories.
+                        So
+                        grab a plate, pull up a seat, and stay a while</p>
+                </div>
+                <img src="assets/images/lunch.png" alt="table with food">
+            </article>
+        </div>
+        <br>
+        <div class="sign">
+            <h3>Sign up to our newsletter</h3>
+            <p>Receive special offers and first look at new products.</p>
+            <div>
+                <input type="email" name="Subscribe" id="email">
+                <label for="email">&nbsp;&nbsp;Subscribe</label>
+            </div>
+        </div>
+        <div class="gallery">
+            <h2>#KinnMoments</h2>
+            <ul>
+                <li><img src="assets/images/kitchen_shelves.png" alt="shelves with plates"></li>
+                <li><img src="assets/images/apples.png" alt="apples"></li>
+                <li><img src="assets/images/tableware.png" alt="tableware"></li>
+                <li><img src="assets/images/lunch.png" alt="lunch"></li>
+            </ul>
+        </div>
+        <footer>
+            <div class="contact">
+                <div>
+                    <h6>© 2021 Kinn Home</h6>
+                    &mdash;&mdash;
+                    <p>Need to get in touch? Just email us at hello@kinnhome.co</p>
+                </div>
+            </div>
+            <div class="explore">
+                <div>
+                    <h5>EXPLORE</h5>
+                    &mdash;&mdash;
+                    <ul>
+                        <li>SHOP</li>
+                        <li>STYLE QUIZ</li>
+                        <li>ABOUT US</li>
+                        <li>STORIES</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="help">
+                <div>
+                    <h5>HELP</h5>
+                    &mdash;&mdash;
+                    <ul>
+                        <li>FAQS + SHIPPING</li>
+                        <li>CONTACT</li>
+                        <li>TERMS</li>
+                        <li>TRADE</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="media">
+                <ul>
+                    <li><svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.9986 0.00090759V4.03544H12.119C11.3608 4.03544 10.5808 4.56732 10.5808 4.9558V7.60253H15.9795C15.7654 9.63931 15.3168 11.4946 15.3168 11.4946H10.563V23H3.46783V11.4946H0V7.61523H3.46783V4.44933C3.46783 3.87932 3.29327 0 10.7376 0H16L15.9986 0.00090759Z"
+                                fill="black" />
+                        </svg></li>
+                    <li><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.0009 0C4.92443 0 0 4.92371 0 10.9995C0 15.5048 2.70862 19.3712 6.58512 21.0748C6.55351 20.3067 6.57768 19.3833 6.77574 18.5483C6.98681 17.6565 8.19096 12.5552 8.19096 12.5552C8.19096 12.5552 7.83948 11.8522 7.83948 10.8136C7.83948 9.18348 8.78419 7.9672 9.96137 7.9672C10.9619 7.9672 11.4435 8.71668 11.4435 9.61773C11.4435 10.6257 10.8029 12.1265 10.4728 13.5223C10.1975 14.6893 11.0576 15.6415 12.2088 15.6415C14.2935 15.6415 15.6957 12.9644 15.6957 9.79162C15.6957 7.38138 14.0731 5.57741 11.119 5.57741C7.78276 5.57741 5.7027 8.06484 5.7027 10.8433C5.7027 11.8029 5.98631 12.479 6.42984 13.0025C6.63347 13.2433 6.65951 13.3391 6.58884 13.6162C6.53398 13.8171 6.41403 14.3062 6.36382 14.4977C6.29036 14.7776 6.06441 14.8762 5.81336 14.7748C4.2754 14.1472 3.55943 12.4632 3.55943 10.5699C3.55943 7.44554 6.19459 3.69906 11.4221 3.69906C15.6232 3.69906 18.3857 6.73883 18.3857 10.0008C18.3857 14.3164 15.9858 17.5412 12.4505 17.5412C11.2631 17.5412 10.1464 16.8978 9.76424 16.1687C9.76424 16.1687 9.12451 18.7026 8.98969 19.1927C8.75723 20.0398 8.29975 20.8888 7.88318 21.5499C8.87253 21.841 9.91767 22 11.0019 22C17.0765 22 22 17.0754 22 11.0005C22 4.92371 17.0765 0.000929811 11.0019 0.000929811L11.0009 0Z"
+                                fill="black" />
+                        </svg></li>
+                    <li><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="32"
+                            width="25" viewBox="-19.5036 -32.49725 169.0312 194.9835">
+                            <defs>
+                                <radialGradient fy="578.088" fx="158.429"
+                                    gradientTransform="matrix(0 -1.98198 1.8439 0 -1031.399 454.004)"
+                                    gradientUnits="userSpaceOnUse" xlink:href="#a" r="65" cy="578.088" cx="158.429"
+                                    id="c" />
+                                <radialGradient fy="473.455" fx="147.694"
+                                    gradientTransform="matrix(.17394 .86872 -3.5818 .71718 1648.351 -458.493)"
+                                    gradientUnits="userSpaceOnUse" xlink:href="#b" r="65" cy="473.455" cx="147.694"
+                                    id="d" />
+                                <linearGradient id="b">
+                                    <stop stop-color="#3771c8" offset="0" />
+                                    <stop offset=".128" stop-color="#3771c8" />
+                                    <stop stop-opacity="0" stop-color="#60f" offset="1" />
+                                </linearGradient>
+                                <linearGradient id="a">
+                                    <stop stop-color="#fd5" offset="0" />
+                                    <stop stop-color="#fd5" offset=".1" />
+                                    <stop stop-color="#ff543e" offset=".5" />
+                                    <stop stop-color="#c837ab" offset="1" />
+                                </linearGradient>
+                            </defs>
+                            <path
+                                d="M65.033 0C37.891 0 29.953.028 28.41.156c-5.57.463-9.036 1.34-12.812 3.22-2.91 1.445-5.205 3.12-7.47 5.468-4.125 4.282-6.625 9.55-7.53 15.812-.44 3.04-.568 3.66-.594 19.188-.01 5.176 0 11.988 0 21.125 0 27.12.03 35.05.16 36.59.45 5.42 1.3 8.83 3.1 12.56 3.44 7.14 10.01 12.5 17.75 14.5 2.68.69 5.64 1.07 9.44 1.25 1.61.07 18.02.12 34.44.12 16.42 0 32.84-.02 34.41-.1 4.4-.207 6.955-.55 9.78-1.28a27.22 27.22 0 0017.75-14.53c1.765-3.64 2.66-7.18 3.065-12.317.088-1.12.125-18.977.125-36.81 0-17.836-.04-35.66-.128-36.78-.41-5.22-1.305-8.73-3.127-12.44-1.495-3.037-3.155-5.305-5.565-7.624-4.3-4.108-9.56-6.608-15.829-7.512C102.338.157 101.733.027 86.193 0z"
+                                fill="url(#c)" />
+                            <path
+                                d="M65.033 0C37.891 0 29.953.028 28.41.156c-5.57.463-9.036 1.34-12.812 3.22-2.91 1.445-5.205 3.12-7.47 5.468-4.125 4.282-6.625 9.55-7.53 15.812-.44 3.04-.568 3.66-.594 19.188-.01 5.176 0 11.988 0 21.125 0 27.12.03 35.05.16 36.59.45 5.42 1.3 8.83 3.1 12.56 3.44 7.14 10.01 12.5 17.75 14.5 2.68.69 5.64 1.07 9.44 1.25 1.61.07 18.02.12 34.44.12 16.42 0 32.84-.02 34.41-.1 4.4-.207 6.955-.55 9.78-1.28a27.22 27.22 0 0017.75-14.53c1.765-3.64 2.66-7.18 3.065-12.317.088-1.12.125-18.977.125-36.81 0-17.836-.04-35.66-.128-36.78-.41-5.22-1.305-8.73-3.127-12.44-1.495-3.037-3.155-5.305-5.565-7.624-4.3-4.108-9.56-6.608-15.829-7.512C102.338.157 101.733.027 86.193 0z"
+                                fill="url(#d)" />
+                            <path
+                                d="M65.003 17c-13.036 0-14.672.057-19.792.29-5.11.234-8.598 1.043-11.65 2.23-3.157 1.226-5.835 2.866-8.503 5.535-2.67 2.668-4.31 5.346-5.54 8.502-1.19 3.053-2 6.542-2.23 11.65C17.06 50.327 17 51.964 17 65s.058 14.667.29 19.787c.235 5.11 1.044 8.598 2.23 11.65 1.227 3.157 2.867 5.835 5.536 8.503 2.667 2.67 5.345 4.314 8.5 5.54 3.054 1.187 6.543 1.996 11.652 2.23 5.12.233 6.755.29 19.79.29 13.037 0 14.668-.057 19.788-.29 5.11-.234 8.602-1.043 11.656-2.23 3.156-1.226 5.83-2.87 8.497-5.54 2.67-2.668 4.31-5.346 5.54-8.502 1.18-3.053 1.99-6.542 2.23-11.65.23-5.12.29-6.752.29-19.788 0-13.036-.06-14.672-.29-19.792-.24-5.11-1.05-8.598-2.23-11.65-1.23-3.157-2.87-5.835-5.54-8.503-2.67-2.67-5.34-4.31-8.5-5.535-3.06-1.187-6.55-1.996-11.66-2.23-5.12-.233-6.75-.29-19.79-.29zm-4.306 8.65c1.278-.002 2.704 0 4.306 0 12.816 0 14.335.046 19.396.276 4.68.214 7.22.996 8.912 1.653 2.24.87 3.837 1.91 5.516 3.59 1.68 1.68 2.72 3.28 3.592 5.52.657 1.69 1.44 4.23 1.653 8.91.23 5.06.28 6.58.28 19.39s-.05 14.33-.28 19.39c-.214 4.68-.996 7.22-1.653 8.91-.87 2.24-1.912 3.835-3.592 5.514-1.68 1.68-3.275 2.72-5.516 3.59-1.69.66-4.232 1.44-8.912 1.654-5.06.23-6.58.28-19.396.28-12.817 0-14.336-.05-19.396-.28-4.68-.216-7.22-.998-8.913-1.655-2.24-.87-3.84-1.91-5.52-3.59-1.68-1.68-2.72-3.276-3.592-5.517-.657-1.69-1.44-4.23-1.653-8.91-.23-5.06-.276-6.58-.276-19.398s.046-14.33.276-19.39c.214-4.68.996-7.22 1.653-8.912.87-2.24 1.912-3.84 3.592-5.52 1.68-1.68 3.28-2.72 5.52-3.592 1.692-.66 4.233-1.44 8.913-1.655 4.428-.2 6.144-.26 15.09-.27zm29.928 7.97a5.76 5.76 0 105.76 5.758c0-3.18-2.58-5.76-5.76-5.76zm-25.622 6.73c-13.613 0-24.65 11.037-24.65 24.65 0 13.613 11.037 24.645 24.65 24.645C78.616 89.645 89.65 78.613 89.65 65S78.615 40.35 65.002 40.35zm0 8.65c8.836 0 16 7.163 16 16 0 8.836-7.164 16-16 16-8.837 0-16-7.164-16-16 0-8.837 7.163-16 16-16z"
+                                fill="#fff" />
+                        </svg></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,322 @@
+main {
+    width: 1328px;
+    margin: auto;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav.menu ul li:not(:last-child) {
+    margin-right: 38px;
+}
+
+nav ul:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: url("/assets/images/main_photo.jpg") center no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.banner h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+.banner p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+    font-weight: 400;
+    margin-right: 64px;
+
+
+}
+
+.mission p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 57px;
+    color: #56593D;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.choose {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 153px;
+}
+
+.choose li:not(:last-child) {
+    margin-right: 75px;
+}
+
+.choose li:hover {
+    text-decoration: underline;
+}
+
+.shop {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    color: #56593D;
+}
+
+.maple {
+    margin-bottom: 137px;
+}
+
+.maple h4,
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 24px;
+    color: #56593D;
+    text-align: center;
+
+}
+
+.boards img:not(:last-child) {
+    margin-right: 32px;
+}
+
+.maple div ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.maple .shop {
+    margin-right: 50px;
+}
+
+.general {
+    background: url("/assets/images/essentials.png") center no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 104px;
+}
+
+.general h4 {
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 600;
+    font-size: 17px;
+    color: #56593D;
+    text-align: center;
+}
+
+.general p {
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 600;
+    font-size: 50px;
+    color: #56593D;
+    text-align: center;
+}
+
+.one,
+.two {
+    display: flex;
+}
+
+.one img {
+    height: 618px;
+    margin-left: 32px;
+}
+
+.one div {
+    align-items: flex-end;
+    text-align: center;
+    margin-left: 119px;
+}
+
+.one h3 {
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 600;
+    font-size: 29px;
+    color: #56593D;
+    margin-bottom: 32px;
+
+}
+
+.one p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32.4px;
+    color: #56593D;
+    max-width: 347px;
+    margin-top: 33px;
+}
+
+.one hr {
+    width: 40px;
+    color: #717353;
+}
+
+.two {
+    margin-top: 64px;
+}
+
+.two img {
+    height: 855px;
+    align-items: flex-end;
+    margin-right: 32px;
+    margin-left: 120px;
+}
+
+.two div {
+    align-items: flex-start;
+    text-align: center;
+    margin-left: 121px;
+}
+
+.two h3 {
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 600;
+    font-size: 29px;
+    color: #56593D;
+    margin-bottom: 32px;
+
+}
+
+.two hr {
+    width: 40px;
+    color: #717353;
+}
+
+.two p {
+
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32.4px;
+    color: #56593D;
+    margin-top: 33px;
+
+}
+
+.sign div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.sign h3 {
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 600;
+    font-size: 29px;
+    color: #56593D;
+    margin-top: 168px;
+    text-align: center;
+
+}
+
+.sign p {
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 400;
+    font-size: 17px;
+    color: #56593D;
+}
+
+.sign div {
+    margin-top: 17px;
+}
+
+#email {
+    margin-bottom: 167px;
+}
+
+.gallery ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.gallery ul li:not(:last-child) {
+    margin-right: 8px;
+}
+
+.gallery img {
+    height: 320px;
+    width: 320px;
+    margin-bottom: 192px;
+}
+
+footer {
+    background-color: #717353;
+    color: #FFFFEF;
+    height: 382px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .contact {
+    margin-top: 64px;
+    margin-left: 32px;
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.2px;
+    max-width: 256px;
+    text-align: left;
+
+}
+
+footer .explore,
+footer .help {
+    margin-top: 62px;
+    margin-left: 92px;
+    font-family: 'Roboto Mono', 'Times New Roman', 'monospace';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.2px;
+    max-width: 253px;
+    text-align: left;
+
+}
+
+.explore ul,
+.help ul,
+.media ul {
+    list-style: none;
+}
+
+.media {
+    display: flex;
+    margin-top: 62px;
+    max-width: 80px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.media div {
+    margin-right: 19px;
+}
